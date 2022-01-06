@@ -48,19 +48,19 @@ function getLoc(section) {
 
     if ((/B[C-X]/).test(section))
         return "2nd floor, Ocean Side";
-    else if ((/A/).test(section) || (/B/).test(section)) 
+    else if ((/^A/).test(section) || (/^B/).test(section)) 
         return "1st floor, Ocean Side";
-    else if ((/[C-F]|[C-F][A-Z]/).test(section)) 
+    else if ((/^[C-F]/).test(section)) 
         return "4th floor, Ocean Side";
     else if ((/^G&|G[A-E]/).test(section))
         return "Sciences & Engineering: 2nd Floor, Mountain Side";
-    else if ((/G[F-Z]|^H&|H[A-X]/).test(section))
+    else if ((/G[F-Z]|^H/).test(section))
         return "4th floor, Ocean Side";
-    else if ((/[J-L]|[J-L][A-Z]/).test(section)) 
+    else if ((/^[J-L]/).test(section)) 
         return "6th floor, Ocean Side";
-    else if ((/M/).test(section)) 
+    else if ((/^M/).test(section)) 
         return "Music Building, 2nd floor";
-    else if ((/N/).test(section)) 
+    else if ((/^N/).test(section)) 
         return "Art & Architecture, 1st floor, Mountain Side";
     else if ((/^P&|P[A-J]/).test(section))
         return "6th floor, Ocean Side";
@@ -68,9 +68,9 @@ function getLoc(section) {
         return "7th floor, Ocean Side";
     else if ((/P[R-Z]/).test(section))
         return "8th floor, Ocean Side";
-    else if ((/[Q-V]|[Q-V][A-Z]/).test(section)) 
+    else if ((/^[Q-V]|[Q-V][A-Z]/).test(section)) 
         return "Sciences & Engineering: 2nd Floor, Mountain Side";
-    else if ((/^Z&|Z[A-Z]/).test(section)) 
+    else if ((/^Z/).test(section)) 
         return "2nd floor, Mountain Side";
     
     return "invalid"

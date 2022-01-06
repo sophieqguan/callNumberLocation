@@ -4,10 +4,11 @@
     "short_name": "UCSB CNL",
     "description": "Appends Location to Call Number",
     "version":"1.0",
-    "manifest_version":3,
+    "manifest_version": 3,
 
     "permissions": [
-        "storage"
+        "storage",
+        "activeTab"
     ],
 
     "action": {

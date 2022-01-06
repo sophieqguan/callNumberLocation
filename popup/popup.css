@@ -1,6 +1,10 @@
 body {
-    width:170px;
-    height:20px;
+    width:270px;
+    height:500px;
+}
+
+#head {
+    margin-left: 20%;
 }
 
 #title {
@@ -14,12 +18,43 @@ body {
 
 .content {
     text-align:center;
-    display:block;
 }
 
 #credit {
     color: gray;
 }
+
+#ttitle {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 5%;
+}
+tbody {
+    border-top: 1px solid gray;
+    padding: 2%;
+}
+td {
+    border: 1px solid rgb(216, 216, 216);
+    padding: 5%;
+}
+
+td:hover {
+    background-color: rgb(202, 215, 230);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(203, 203, 203);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(225, 225, 225);
+}
+
 
 a:link { text-decoration: none; } 
 a:visited { text-decoration: none;}
