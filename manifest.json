@@ -1,0 +1,30 @@
+{
+    "name": "UCSB Call Number Location",
+    
+    "short_name": "UCSB CNL",
+    "description": "Appends Location to Call Number",
+    "version":"1.0",
+    "manifest_version":3,
+
+    "permissions": [
+        "storage"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["https://*.search.library.ucsb.edu/*"],
+            "all_frames": true,
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    
+    "icons": {
+        "16":"/images/icon.png",
+        "32":"/images/icon.png"
+    }
+}

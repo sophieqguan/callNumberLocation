@@ -1,0 +1,27 @@
+body {
+    width:170px;
+    height:20px;
+}
+
+#title {
+    color:gray;
+    text-align: center;
+}
+
+.tiny-text {
+    font-size: 10px;
+}
+
+.content {
+    text-align:center;
+    display:block;
+}
+
+#credit {
+    color: gray;
+}
+
+a:link { text-decoration: none; } 
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
