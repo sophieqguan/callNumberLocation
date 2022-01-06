@@ -1,4 +1,4 @@
-### UCSB Library Call Number Location Look-up
+# UCSB Library Call Number Location Look-up
 
 displays location (e.g. 1st floor, Ocean Side) when browsing library catalog
 
