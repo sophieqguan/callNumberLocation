@@ -1,6 +1,6 @@
 # UCSB Library Call Number Location Look-up
 
-displays location (e.g. 1st floor, Ocean Side) when browsing library catalog
+chrome extension that displays location (e.g. 1st floor, Ocean Side) of call number when browsing UCSB library catalog
 
 *mostly* accurate. :))))))))))))
 
